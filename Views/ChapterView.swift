@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BookView: View {
+struct ChapterView: View {
   let booksOfScriptres = ["All", "1 Nephi 1", "1 Nephi 2", "1 Nephi 3"]
   var book: String
   var index: Int { booksOfScriptres.firstIndex(of: book)! }
@@ -22,7 +22,6 @@ struct BookView: View {
       ForEach(verses, id: \.self) { verse in
         Text(verse)
       }
-      ç
     }
     .padding()
     }
@@ -30,8 +29,8 @@ struct BookView: View {
 }
 
 
-struct BookView_Previews: PreviewProvider {
+struct ChapterView_Previews: PreviewProvider {
   static var previews: some View {
-    BookView(book: "1 Nephi 1")
+    ChapterView(book: "1 Nephi 1")
   }
 }

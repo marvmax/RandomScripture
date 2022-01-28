@@ -12,7 +12,7 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       List(booksOfScriptres, id: \.self) { (bookOfScipture) in
-        NavigationLink(destination: BookView(book: bookOfScipture )) {
+        NavigationLink(destination: ChapterView(book: bookOfScipture )) {
           Text(bookOfScipture)
         }
       }
