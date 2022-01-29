@@ -8,15 +8,12 @@
 import SwiftUI
 
 struct ChapterView: View {
-  let booksOfScriptres = ["All", "1 Nephi 1", "1 Nephi 2", "1 Nephi 3"]
-  var book: String
-  var index: Int { booksOfScriptres.firstIndex(of: book)! }
-  
+  var verseData: VerseData
   var body: some View {
-    let pickBook = PickBook(book: book)
-    let verses = pickBook.getStringVerses()
+    //let pickBook = PickBook(book: book)
+    let verses = verseData.verseStrings
     VStack {
-      Text(pickBook.verseName())
+      Text(verseData.verseTupel.0)
         .font(.largeTitle)
     ScrollView {
       ForEach(verses, id: \.self) { verse in
@@ -31,6 +28,6 @@ struct ChapterView: View {
 
 struct ChapterView_Previews: PreviewProvider {
   static var previews: some View {
-    ChapterView(book: "1 Nephi 1")
+    ChapterView(verseData: VerseData(pickBook: PickBook(book: "1 Nephi 1")))
   }
 }
