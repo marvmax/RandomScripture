@@ -1,0 +1,272 @@
+{
+    "books": [
+		{
+            "book": "Matthew",
+            "chapters": [
+                {
+                    "chapter": 1,
+                    "reference": "Matthew 1",
+                    "verses": [
+                        {
+                            "reference": "Matthew 1:1",
+                            "text": "The book of the generation of Jesus Christ, the son of David, the son of Abraham.",
+                            "verse": 1
+                        },
+                        {
+                            "reference": "Matthew 1:2",
+                            "text": "Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;",
+                            "verse": 2
+                        },
+                        {
+                            "reference": "Matthew 1:3",
+                            "text": "And Judas begat Phares and Zara of Thamar; and Phares begat Esrom; and Esrom begat Aram;",
+                            "verse": 3
+                        },
+                        {
+                            "reference": "Matthew 1:4",
+                            "text": "And Aram begat Aminadab; and Aminadab begat Naasson; and Naasson begat Salmon;",
+                            "verse": 4
+                        },
+                        {
+                            "reference": "Matthew 1:5",
+                            "text": "And Salmon begat Booz of Rachab; and Booz begat Obed of Ruth; and Obed begat Jesse;",
+                            "verse": 5
+                        },
+                        {
+                            "reference": "Matthew 1:6",
+                            "text": "And Jesse begat David the king; and David the king begat Solomon of her that had been the wife of Urias;",
+                            "verse": 6
+                        },
+                        {
+                            "reference": "Matthew 1:7",
+                            "text": "And Solomon begat Roboam; and Roboam begat Abia; and Abia begat Asa;",
+                            "verse": 7
+                        },
+                        {
+                            "reference": "Matthew 1:8",
+                            "text": "And Asa begat Josaphat; and Josaphat begat Joram; and Joram begat Ozias;",
+                            "verse": 8
+                        },
+                        {
+                            "reference": "Matthew 1:9",
+                            "text": "And Ozias begat Joatham; and Joatham begat Achaz; and Achaz begat Ezekias;",
+                            "verse": 9
+                        },
+                        {
+                            "reference": "Matthew 1:10",
+                            "text": "And Ezekias begat Manasses; and Manasses begat Amon; and Amon begat Josias;",
+                            "verse": 10
+                        },
+                        {
+                            "reference": "Matthew 1:11",
+                            "text": "And Josias begat Jechonias and his brethren, about the time they were carried away to Babylon:",
+                            "verse": 11
+                        },
+                        {
+                            "reference": "Matthew 1:12",
+                            "text": "And after they were brought to Babylon, Jechonias begat Salathiel; and Salathiel begat Zorobabel;",
+                            "verse": 12
+                        },
+                        {
+                            "reference": "Matthew 1:13",
+                            "text": "And Zorobabel begat Abiud; and Abiud begat Eliakim; and Eliakim begat Azor;",
+                            "verse": 13
+                        },
+                        {
+                            "reference": "Matthew 1:14",
+                            "text": "And Azor begat Sadoc; and Sadoc begat Achim; and Achim begat Eliud;",
+                            "verse": 14
+                        },
+                        {
+                            "reference": "Matthew 1:15",
+                            "text": "And Eliud begat Eleazar; and Eleazar begat Matthan; and Matthan begat Jacob;",
+                            "verse": 15
+                        },
+                        {
+                            "reference": "Matthew 1:16",
+                            "text": "And Jacob begat Joseph the husband of Mary, of whom was born Jesus, who is called Christ.",
+                            "verse": 16
+                        },
+                        {
+                            "reference": "Matthew 1:17",
+                            "text": "So all the generations from Abraham to David are fourteen generations; and from David until the carrying away into Babylon are fourteen generations; and from the carrying away into Babylon unto Christ are fourteen generations.",
+                            "verse": 17
+                        },
+                        {
+                            "pilcrow": true,
+                            "reference": "Matthew 1:18",
+                            "text": "Now the birth of Jesus Christ was on this wise: When as his mother Mary was espoused to Joseph, before they came together, she was found with child of the Holy Ghost.",
+                            "verse": 18
+                        },
+                        {
+                            "reference": "Matthew 1:19",
+                            "text": "Then Joseph her husband, being a just man, and not willing to make her a publick example, was minded to put her away privily.",
+                            "verse": 19
+                        },
+                        {
+                            "reference": "Matthew 1:20",
+                            "text": "But while he thought on these things, behold, the angel of the Lord appeared unto him in a dream, saying, Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is conceived in her is of the Holy Ghost.",
+                            "verse": 20
+                        },
+                        {
+                            "reference": "Matthew 1:21",
+                            "text": "And she shall bring forth a son, and thou shalt call his name JESUS: for he shall save his people from their sins.",
+                            "verse": 21
+                        },
+                        {
+                            "reference": "Matthew 1:22",
+                            "text": "Now all this was done, that it might be fulfilled which was spoken of the Lord by the prophet, saying,",
+                            "verse": 22
+                        },
+                        {
+                            "reference": "Matthew 1:23",
+                            "text": "Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name Emmanuel, which being interpreted is, God with us.",
+                            "verse": 23
+                        },
+                        {
+                            "reference": "Matthew 1:24",
+                            "text": "Then Joseph being raised from sleep did as the angel of the Lord had bidden him, and took unto him his wife:",
+                            "verse": 24
+                        },
+                        {
+                            "reference": "Matthew 1:25",
+                            "text": "And knew her not till she had brought forth her firstborn son: and he called his name JESUS.",
+                            "verse": 25
+                        }
+                    ]
+                },
+                {
+                    "chapter": 2,
+                    "reference": "Matthew 2",
+                    "verses": [
+                        {
+                            "reference": "Matthew 2:1",
+                            "text": "Now when Jesus was born in Bethlehem of Judæa in the days of Herod the king, behold, there came wise men from the east to Jerusalem,",
+                            "verse": 1
+                        },
+                        {
+                            "reference": "Matthew 2:2",
+                            "text": "Saying, Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him.",
+                            "verse": 2
+                        },
+                        {
+                            "reference": "Matthew 2:3",
+                            "text": "When Herod the king had heard these things, he was troubled, and all Jerusalem with him.",
+                            "verse": 3
+                        },
+                        {
+                            "reference": "Matthew 2:4",
+                            "text": "And when he had gathered all the chief priests and scribes of the people together, he demanded of them where Christ should be born.",
+                            "verse": 4
+                        },
+                        {
+                            "reference": "Matthew 2:5",
+                            "text": "And they said unto him, In Bethlehem of Judæa: for thus it is written by the prophet,",
+                            "verse": 5
+                        },
+                        {
+                            "reference": "Matthew 2:6",
+                            "text": "And thou Bethlehem, in the land of Juda, art not the least among the princes of Juda: for out of thee shall come a Governor, that shall rule my people Israel.",
+                            "verse": 6
+                        },
+                        {
+                            "reference": "Matthew 2:7",
+                            "text": "Then Herod, when he had privily called the wise men, inquired of them diligently what time the star appeared.",
+                            "verse": 7
+                        },
+                        {
+                            "reference": "Matthew 2:8",
+                            "text": "And he sent them to Bethlehem, and said, Go and search diligently for the young child; and when ye have found him, bring me word again, that I may come and worship him also.",
+                            "verse": 8
+                        },
+                        {
+                            "reference": "Matthew 2:9",
+                            "text": "When they had heard the king, they departed; and, lo, the star, which they saw in the east, went before them, till it came and stood over where the young child was.",
+                            "verse": 9
+                        },
+                        {
+                            "reference": "Matthew 2:10",
+                            "text": "When they saw the star, they rejoiced with exceeding great joy.",
+                            "verse": 10
+                        },
+                        {
+                            "pilcrow": true,
+                            "reference": "Matthew 2:11",
+                            "text": "And when they were come into the house, they saw the young child with Mary his mother, and fell down, and worshipped him: and when they had opened their treasures, they presented unto him gifts; gold, and frankincense, and myrrh.",
+                            "verse": 11
+                        },
+                        {
+                            "reference": "Matthew 2:12",
+                            "text": "And being warned of God in a dream that they should not return to Herod, they departed into their own country another way.",
+                            "verse": 12
+                        },
+                        {
+                            "reference": "Matthew 2:13",
+                            "text": "And when they were departed, behold, the angel of the Lord appeareth to Joseph in a dream, saying, Arise, and take the young child and his mother, and flee into Egypt, and be thou there until I bring thee word: for Herod will seek the young child to destroy him.",
+                            "verse": 13
+                        },
+                        {
+                            "reference": "Matthew 2:14",
+                            "text": "When he arose, he took the young child and his mother by night, and departed into Egypt:",
+                            "verse": 14
+                        },
+                        {
+                            "reference": "Matthew 2:15",
+                            "text": "And was there until the death of Herod: that it might be fulfilled which was spoken of the Lord by the prophet, saying, Out of Egypt have I called my son.",
+                            "verse": 15
+                        },
+                        {
+                            "pilcrow": true,
+                            "reference": "Matthew 2:16",
+                            "text": "Then Herod, when he saw that he was mocked of the wise men, was exceeding wroth, and sent forth, and slew all the children that were in Bethlehem, and in all the coasts thereof, from two years old and under, according to the time which he had diligently inquired of the wise men.",
+                            "verse": 16
+                        },
+                        {
+                            "reference": "Matthew 2:17",
+                            "text": "Then was fulfilled that which was spoken by Jeremy the prophet, saying,",
+                            "verse": 17
+                        },
+                        {
+                            "reference": "Matthew 2:18",
+                            "text": "In Rama was there a voice heard, lamentation, and weeping, and great mourning, Rachel weeping for her children, and would not be comforted, because they are not.",
+                            "verse": 18
+                        },
+                        {
+                            "pilcrow": true,
+                            "reference": "Matthew 2:19",
+                            "text": "But when Herod was dead, behold, an angel of the Lord appeareth in a dream to Joseph in Egypt,",
+                            "verse": 19
+                        },
+                        {
+                            "reference": "Matthew 2:20",
+                            "text": "Saying, Arise, and take the young child and his mother, and go into the land of Israel: for they are dead which sought the young child's life.",
+                            "verse": 20
+                        },
+                        {
+                            "reference": "Matthew 2:21",
+                            "text": "And he arose, and took the young child and his mother, and came into the land of Israel.",
+                            "verse": 21
+                        },
+                        {
+                            "reference": "Matthew 2:22",
+                            "text": "But when he heard that Archelaus did reign in Judæa in the room of his father Herod, he was afraid to go thither: notwithstanding, being warned of God in a dream, he turned aside into the parts of Galilee:",
+                            "verse": 22
+                        },
+                        {
+                            "reference": "Matthew 2:23",
+                            "text": "And he came and dwelt in a city called Nazareth: that it might be fulfilled which was spoken by the prophets, He shall be called a Nazarene.",
+                            "verse": 23
+                        }
+                    ]
+                },
+	,],
+    "last_modified": "2016-10-02",
+    "lds_slug": "nt",
+    "title": "The New Testament",
+    "title_page": {
+        "subtitle": "of Our Lord and Saviour Jesus Christ",
+        "text": "Translated out of the Original Greek: and with the Former Translations Diligently Compared and Revised, by His Majesty's Special Command",
+        "title": "The New Testament"
+    }
+    "version": 1
+}
