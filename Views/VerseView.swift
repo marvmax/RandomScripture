@@ -30,6 +30,6 @@ struct VerseView: View {
 
 struct VerseView_Previews: PreviewProvider {
   static var previews: some View {
-    VerseView(pickBook: PickBook(book: "1 Nephi 1"))
+    VerseView(pickBook: PickBook(book: StandardWorks(work: "Old Testament")))
   }
 }

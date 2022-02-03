@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-  let booksOfScriptres = ["All", "1 Nephi 1", "1 Nephi 2", "1 Nephi 3"]
+  let standardWorks = ["Standard Works", "Old Testament", "New Testament", "Book of Mormon", "Doctrine and Covenants", "Pearl of Great Price"]
   var body: some View {
     NavigationView {
-      List(booksOfScriptres, id: \.self) { bookOfScripture in
-        NavigationLink(destination: VerseView(pickBook: PickBook(book: bookOfScripture))) {
-          Text(bookOfScripture)
+      List(standardWorks, id: \.self) { work in
+        NavigationLink(destination: VerseView(pickBook: PickBook(book: StandardWorks(work: work)))) {
+          Text(work)
         }
       }
       .navigationTitle("Pick a Book")

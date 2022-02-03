@@ -24,7 +24,8 @@ struct VerseData {
 }
 
 struct PickBook {
-  var book: String
+  
+  var book: StandardWorks
   private var verses: [Verse] { getVerses() }
   private var randomScriptureInt: Int { randomTextNumer(verses) }
   // private var verseTuple: (lable: String, text: String) { getVerseData(verses)}
@@ -32,12 +33,12 @@ struct PickBook {
   //var verse: String { getVerseData(verses).1 }
   var verseStrings: [String] { getStringVerses() }
   
-  init(book: String) {
+  init(book: StandardWorks) {
     self.book = book
   }
   
   private func jsonData() -> Data? {
-    if let URL = Bundle.main.url(forResource: book, withExtension: "json") {
+    if let URL = Bundle.main.url(forResource: book.chapter, withExtension: "json") {
       do {
         return try Data(contentsOf: URL)
       } catch {

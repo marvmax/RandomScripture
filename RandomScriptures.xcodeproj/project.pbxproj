@@ -320,12 +320,10 @@
 		0F9847FE27A9F5CE00A0286D /* D&C 28.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477427A9F5BA00A0286D /* D&C 28.json */; };
 		0F9847FF27A9F5CE00A0286D /* D&C 11.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477527A9F5BA00A0286D /* D&C 11.json */; };
 		0F98480027A9F5CE00A0286D /* D&C 30.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477627A9F5BA00A0286D /* D&C 30.json */; };
-		0F98480127A9F5CE00A0286D /* D&C 131.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477727A9F5BB00A0286D /* D&C 131.json */; };
 		0F98480227A9F5CE00A0286D /* D&C 78.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477827A9F5BB00A0286D /* D&C 78.json */; };
 		0F98480327A9F5CE00A0286D /* D&C 58.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477927A9F5BB00A0286D /* D&C 58.json */; };
 		0F98480427A9F5CE00A0286D /* D&C 47.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477A27A9F5BB00A0286D /* D&C 47.json */; };
 		0F98480527A9F5CE00A0286D /* D&C 38.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477B27A9F5BC00A0286D /* D&C 38.json */; };
-		0F98480627A9F5CE00A0286D /* D&C 131:3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477C27A9F5BC00A0286D /* D&C 131:3.json */; };
 		0F98480727A9F5CE00A0286D /* D&C 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477D27A9F5BC00A0286D /* D&C 7.json */; };
 		0F98480827A9F5CE00A0286D /* D&C 50.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477E27A9F5BC00A0286D /* D&C 50.json */; };
 		0F98480927A9F5CE00A0286D /* D&C 15.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98477F27A9F5BD00A0286D /* D&C 15.json */; };
@@ -1584,14 +1582,17 @@
 		0F9851A627A9FA5600A0286D /* Moses 8.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519627A9FA5200A0286D /* Moses 8.json */; };
 		0F9851A727A9FA5600A0286D /* Moses 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519727A9FA5200A0286D /* Moses 6.json */; };
 		0F9851A827A9FA5600A0286D /* Abraham 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519827A9FA5300A0286D /* Abraham 4.json */; };
-		0F9851A927A9FA5600A0286D /* Joseph Smith—History 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519927A9FA5300A0286D /* Joseph Smith—History 1.json */; };
 		0F9851AA27A9FA5600A0286D /* Articles of Faith.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519A27A9FA5400A0286D /* Articles of Faith.json */; };
 		0F9851AB27A9FA5600A0286D /* Moses 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519B27A9FA5400A0286D /* Moses 3.json */; };
 		0F9851AC27A9FA5600A0286D /* Moses 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519C27A9FA5400A0286D /* Moses 7.json */; };
-		0F9851AD27A9FA5600A0286D /* Joseph Smith—Matthew 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519D27A9FA5500A0286D /* Joseph Smith—Matthew 1.json */; };
+		0F9851AD27A9FA5600A0286D /* Joseph Smith-Matthew 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519D27A9FA5500A0286D /* Joseph Smith-Matthew 1.json */; };
 		0F9851AE27A9FA5600A0286D /* Moses 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519E27A9FA5500A0286D /* Moses 4.json */; };
 		0F9851AF27A9FA5600A0286D /* Moses 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519F27A9FA5600A0286D /* Moses 5.json */; };
 		0F9851B027A9FA5600A0286D /* Abraham 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9851A027A9FA5600A0286D /* Abraham 1.json */; };
+		0F9851B327AA0DBA00A0286D /* ChapterArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9851B227AA0DBA00A0286D /* ChapterArray.swift */; };
+		0F9851B827AA258D00A0286D /* D&C 132.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9851B627AA258C00A0286D /* D&C 132.json */; };
+		0F9851B927AA258D00A0286D /* D&C 131.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9851B727AA258C00A0286D /* D&C 131.json */; };
+		0F9851BB27AA281C00A0286D /* Joseph Smith-History.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9851BA27AA281C00A0286D /* Joseph Smith-History.json */; };
 		0FCFEB3627A028D4008464B8 /* RandomScripturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFEB3527A028D4008464B8 /* RandomScripturesApp.swift */; };
 		0FCFEB3827A028D4008464B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFEB3727A028D4008464B8 /* ContentView.swift */; };
 		0FCFEB3A27A028D7008464B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFEB3927A028D7008464B8 /* Assets.xcassets */; };
@@ -1601,7 +1602,6 @@
 		0FCFEB5327A028D7008464B8 /* RandomScripturesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFEB5227A028D7008464B8 /* RandomScripturesUITestsLaunchTests.swift */; };
 		0FCFEB6D27A03009008464B8 /* ChapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFEB6C27A03009008464B8 /* ChapterView.swift */; };
 		0FCFEB6F27A0306E008464B8 /* PickBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFEB6E27A0306E008464B8 /* PickBook.swift */; };
-		0FD8EB6F27A5C68B0067D203 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8EB6E27A5C68B0067D203 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1935,12 +1935,10 @@
 		0F98477427A9F5BA00A0286D /* D&C 28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 28.json"; sourceTree = "<group>"; };
 		0F98477527A9F5BA00A0286D /* D&C 11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 11.json"; sourceTree = "<group>"; };
 		0F98477627A9F5BA00A0286D /* D&C 30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 30.json"; sourceTree = "<group>"; };
-		0F98477727A9F5BB00A0286D /* D&C 131.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 131.json"; sourceTree = "<group>"; };
 		0F98477827A9F5BB00A0286D /* D&C 78.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 78.json"; sourceTree = "<group>"; };
 		0F98477927A9F5BB00A0286D /* D&C 58.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 58.json"; sourceTree = "<group>"; };
 		0F98477A27A9F5BB00A0286D /* D&C 47.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 47.json"; sourceTree = "<group>"; };
 		0F98477B27A9F5BC00A0286D /* D&C 38.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 38.json"; sourceTree = "<group>"; };
-		0F98477C27A9F5BC00A0286D /* D&C 131:3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 131:3.json"; sourceTree = "<group>"; };
 		0F98477D27A9F5BC00A0286D /* D&C 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 7.json"; sourceTree = "<group>"; };
 		0F98477E27A9F5BC00A0286D /* D&C 50.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 50.json"; sourceTree = "<group>"; };
 		0F98477F27A9F5BD00A0286D /* D&C 15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 15.json"; sourceTree = "<group>"; };
@@ -3199,14 +3197,17 @@
 		0F98519627A9FA5200A0286D /* Moses 8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 8.json"; sourceTree = "<group>"; };
 		0F98519727A9FA5200A0286D /* Moses 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 6.json"; sourceTree = "<group>"; };
 		0F98519827A9FA5300A0286D /* Abraham 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Abraham 4.json"; sourceTree = "<group>"; };
-		0F98519927A9FA5300A0286D /* Joseph Smith—History 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Joseph Smith—History 1.json"; sourceTree = "<group>"; };
 		0F98519A27A9FA5400A0286D /* Articles of Faith.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Articles of Faith.json"; sourceTree = "<group>"; };
 		0F98519B27A9FA5400A0286D /* Moses 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 3.json"; sourceTree = "<group>"; };
 		0F98519C27A9FA5400A0286D /* Moses 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 7.json"; sourceTree = "<group>"; };
-		0F98519D27A9FA5500A0286D /* Joseph Smith—Matthew 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Joseph Smith—Matthew 1.json"; sourceTree = "<group>"; };
+		0F98519D27A9FA5500A0286D /* Joseph Smith-Matthew 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Joseph Smith-Matthew 1.json"; sourceTree = "<group>"; };
 		0F98519E27A9FA5500A0286D /* Moses 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 4.json"; sourceTree = "<group>"; };
 		0F98519F27A9FA5600A0286D /* Moses 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 5.json"; sourceTree = "<group>"; };
 		0F9851A027A9FA5600A0286D /* Abraham 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Abraham 1.json"; sourceTree = "<group>"; };
+		0F9851B227AA0DBA00A0286D /* ChapterArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterArray.swift; sourceTree = "<group>"; };
+		0F9851B627AA258C00A0286D /* D&C 132.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 132.json"; sourceTree = "<group>"; };
+		0F9851B727AA258C00A0286D /* D&C 131.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 131.json"; sourceTree = "<group>"; };
+		0F9851BA27AA281C00A0286D /* Joseph Smith-History.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Joseph Smith-History.json"; sourceTree = "<group>"; };
 		0FCFEB3227A028D4008464B8 /* RandomScriptures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomScriptures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCFEB3527A028D4008464B8 /* RandomScripturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomScripturesApp.swift; sourceTree = "<group>"; };
 		0FCFEB3727A028D4008464B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -3219,7 +3220,6 @@
 		0FCFEB5227A028D7008464B8 /* RandomScripturesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomScripturesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0FCFEB6C27A03009008464B8 /* ChapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterView.swift; sourceTree = "<group>"; };
 		0FCFEB6E27A0306E008464B8 /* PickBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickBook.swift; sourceTree = "<group>"; };
-		0FD8EB6E27A5C68B0067D203 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3308,14 +3308,16 @@
 		0FCFEB5F27A02941008464B8 /* Books */ = {
 			isa = PBXGroup;
 			children = (
+				0F9851BA27AA281C00A0286D /* Joseph Smith-History.json */,
+				0F9851B727AA258C00A0286D /* D&C 131.json */,
+				0F9851B627AA258C00A0286D /* D&C 132.json */,
 				0F9851A027A9FA5600A0286D /* Abraham 1.json */,
 				0F98519127A9FA5000A0286D /* Abraham 2.json */,
 				0F98519527A9FA5200A0286D /* Abraham 3.json */,
 				0F98519827A9FA5300A0286D /* Abraham 4.json */,
 				0F98519227A9FA5000A0286D /* Abraham 5.json */,
 				0F98519A27A9FA5400A0286D /* Articles of Faith.json */,
-				0F98519927A9FA5300A0286D /* Joseph Smith—History 1.json */,
-				0F98519D27A9FA5500A0286D /* Joseph Smith—Matthew 1.json */,
+				0F98519D27A9FA5500A0286D /* Joseph Smith-Matthew 1.json */,
 				0F98519427A9FA5100A0286D /* Moses 1.json */,
 				0F98519327A9FA5100A0286D /* Moses 2.json */,
 				0F98519B27A9FA5400A0286D /* Moses 3.json */,
@@ -3831,6 +3833,7 @@
 				0F984CBD27A9F7C500A0286D /* Jeremiah 28.json */,
 				0F984CFB27A9F7EA00A0286D /* Jeremiah 29.json */,
 				0F984C9027A9F7AB00A0286D /* Jeremiah 30.json */,
+				0F984C1D27A9F76C00A0286D /* Jeremiah 42.json */,
 				0F984A5327A9F69300A0286D /* Jeremiah 31.json */,
 				0F984C1227A9F76600A0286D /* Jeremiah 32.json */,
 				0F984C5E27A9F78F00A0286D /* Jeremiah 33.json */,
@@ -3842,7 +3845,6 @@
 				0F984D6627A9F82800A0286D /* Jeremiah 39.json */,
 				0F984DAB27A9F85100A0286D /* Jeremiah 40.json */,
 				0F984B8C27A9F72000A0286D /* Jeremiah 41.json */,
-				0F984C1D27A9F76C00A0286D /* Jeremiah 42.json */,
 				0F984B8A27A9F71F00A0286D /* Jeremiah 43.json */,
 				0F984BCD27A9F74100A0286D /* Jeremiah 44.json */,
 				0F984B4927A9F70000A0286D /* Jeremiah 45.json */,
@@ -4646,8 +4648,6 @@
 				0F98474127A9F5AF00A0286D /* D&C 128.json */,
 				0F98478027A9F5BD00A0286D /* D&C 129.json */,
 				0F98473E27A9F5AE00A0286D /* D&C 130.json */,
-				0F98477C27A9F5BC00A0286D /* D&C 131:3.json */,
-				0F98477727A9F5BB00A0286D /* D&C 131.json */,
 				0F98473127A9F5AB00A0286D /* D&C 133.json */,
 				0F98476F27A9F5B900A0286D /* D&C 134.json */,
 				0F98477327A9F5BA00A0286D /* D&C 135.json */,
@@ -4902,7 +4902,6 @@
 				0FCFEB3727A028D4008464B8 /* ContentView.swift */,
 				0FCFEB6C27A03009008464B8 /* ChapterView.swift */,
 				0F14EABA27A43A79006DBEF6 /* VerseView.swift */,
-				0FD8EB6E27A5C68B0067D203 /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -4911,6 +4910,7 @@
 			isa = PBXGroup;
 			children = (
 				0FCFEB6E27A0306E008464B8 /* PickBook.swift */,
+				0F9851B227AA0DBA00A0286D /* ChapterArray.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -5544,7 +5544,7 @@
 				0F98471D27A9F57800A0286D /* Jacob 1.json in Resources */,
 				0F9846D627A9F57800A0286D /* Mosiah 28.json in Resources */,
 				0F9849DF27A9F64000A0286D /* Hebrews 10.json in Resources */,
-				0F9851AD27A9FA5600A0286D /* Joseph Smith—Matthew 1.json in Resources */,
+				0F9851AD27A9FA5600A0286D /* Joseph Smith-Matthew 1.json in Resources */,
 				0F984E7227A9F87900A0286D /* 2 Samuel 20.json in Resources */,
 				0F9849D927A9F64000A0286D /* 1 Thessalonians 5.json in Resources */,
 				0F984A3C27A9F64100A0286D /* John 6.json in Resources */,
@@ -5618,7 +5618,6 @@
 				0F984E9127A9F87900A0286D /* Ezekiel 47.json in Resources */,
 				0F9847EA27A9F5CE00A0286D /* D&C 25.json in Resources */,
 				0F9850B127A9F87C00A0286D /* Exodus 38.json in Resources */,
-				0F98480627A9F5CE00A0286D /* D&C 131:3.json in Resources */,
 				0F98466127A9F57700A0286D /* 1 Nephi 19.json in Resources */,
 				0F98494D27A9F64000A0286D /* Galatians 6.json in Resources */,
 				0F9846C127A9F57800A0286D /* 3 Nephi 13.json in Resources */,
@@ -5950,6 +5949,7 @@
 				0F984FE827A9F87B00A0286D /* Judges 9.json in Resources */,
 				0F9849FB27A9F64000A0286D /* Revelation 13.json in Resources */,
 				0F98494827A9F64000A0286D /* Matthew 13.json in Resources */,
+				0F9851BB27AA281C00A0286D /* Joseph Smith-History.json in Resources */,
 				0F9847C527A9F5CE00A0286D /* D&C 26.json in Resources */,
 				0F98515B27A9F87C00A0286D /* Psalms 85.json in Resources */,
 				0F98503027A9F87B00A0286D /* Nehemiah 11.json in Resources */,
@@ -6338,6 +6338,7 @@
 				0F98514E27A9F87C00A0286D /* Jeremiah 40.json in Resources */,
 				0F984E2F27A9F87900A0286D /* 2 Samuel 12.json in Resources */,
 				0F984EA927A9F87900A0286D /* Jeremiah 10.json in Resources */,
+				0F9851B927AA258D00A0286D /* D&C 131.json in Resources */,
 				0F984FB827A9F87A00A0286D /* Exodus 7.json in Resources */,
 				0F9850F227A9F87C00A0286D /* Job 25.json in Resources */,
 				0F984A2E27A9F64100A0286D /* 2 Corinthians 7.json in Resources */,
@@ -6449,7 +6450,6 @@
 				0F98465627A9F57700A0286D /* 1 Nephi 2.json in Resources */,
 				0F984EE527A9F87900A0286D /* 2 Samuel 7.json in Resources */,
 				0F9851A527A9FA5600A0286D /* Abraham 3.json in Resources */,
-				0F98480127A9F5CE00A0286D /* D&C 131.json in Resources */,
 				0F98497427A9F64000A0286D /* Luke 13.json in Resources */,
 				0F9850A927A9F87B00A0286D /* Genesis 38.json in Resources */,
 				0F984E5827A9F87900A0286D /* Jeremiah 48.json in Resources */,
@@ -6566,6 +6566,7 @@
 				0F984F8227A9F87A00A0286D /* Jeremiah 51.json in Resources */,
 				0F984EE827A9F87900A0286D /* Psalms 117.json in Resources */,
 				0F98499F27A9F64000A0286D /* 1 Corinthians 15.json in Resources */,
+				0F9851B827AA258D00A0286D /* D&C 132.json in Resources */,
 				0F984A0A27A9F64000A0286D /* 1 Timothy 6.json in Resources */,
 				0F984EA427A9F87900A0286D /* Psalms 120.json in Resources */,
 				0F98503227A9F87B00A0286D /* Lamentations 3.json in Resources */,
@@ -6575,7 +6576,6 @@
 				0F984EEF27A9F87900A0286D /* Deuteronomy 7.json in Resources */,
 				0F98470127A9F57800A0286D /* Ether 7.json in Resources */,
 				0F98501627A9F87B00A0286D /* Proverbs 13.json in Resources */,
-				0F9851A927A9FA5600A0286D /* Joseph Smith—History 1.json in Resources */,
 				0F9850E527A9F87C00A0286D /* Ecclesiastes 10.json in Resources */,
 				0F9846BB27A9F57800A0286D /* Alma 6.json in Resources */,
 				0F9849C627A9F64000A0286D /* 2 Corinthians 13.json in Resources */,
@@ -6629,7 +6629,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD8EB6F27A5C68B0067D203 /* TestView.swift in Sources */,
+				0F9851B327AA0DBA00A0286D /* ChapterArray.swift in Sources */,
 				0FCFEB6D27A03009008464B8 /* ChapterView.swift in Sources */,
 				0FCFEB3827A028D4008464B8 /* ContentView.swift in Sources */,
 				0FCFEB3627A028D4008464B8 /* RandomScripturesApp.swift in Sources */,
