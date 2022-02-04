@@ -9,10 +9,13 @@ import Foundation
 
 struct StandardWorks {
   var work: String
-  var chapter: String { getChapter(arrayAcess: getBook(standardWork: work))}
-  var standardWorks = ["Standard Works", "Old Testament", "New Testament", "Book of Mormon", "Doctrine and Covenants", "Pearl of Great Price"]
+  // private var verseTuple: String { getChapter(arrayAcess: getBook(standardWork: work)) }
+  var chapter: String { getChapter(arrayAcess: getBook(standardWork: work)) }
+  var randomVerseInt: Int { randomVerseInt(chapter: chapter, arrayAccess: getBook(standardWork: work)) }
+  var verseTest = 0
+  private let standardWorks = ["Standard Works", "Old Testament", "New Testament", "Book of Mormon", "Doctrine and Covenants", "Pearl of Great Price"]
   
-  let oldTestamentBooks = ["Genisis",
+  private let oldTestamentBooks = ["Genisis",
                       "Exodus",
                       "Leviticus",
                       "Numbers",
@@ -54,7 +57,7 @@ struct StandardWorks {
   ]
 
   
-  let oldTestamentChapters = ["Genisis": 50,
+  private let oldTestamentChapters = ["Genisis": 50,
                       "Exodus": 40,
                       "Leviticus": 27,
                       "Numbers": 36,
@@ -95,7 +98,7 @@ struct StandardWorks {
                       "Malachi": 4
   ]
   
-  let versesOT = [[31, 25, 24, 26, 32, 22, 24, 22, 29, 32, 32, 12, 18, 24, 21, 16, 27, 33, 38, 18, 34, 24, 20, 67, 34, 35, 46, 22, 29, 43, 55, 32, 20, 21, 29, 43, 36, 30, 23, 23, 57, 38, 34, 34, 28, 34, 31, 22, 33, 26], // Genisis
+  private let versesOT = [[31, 25, 24, 26, 32, 22, 24, 22, 29, 32, 32, 12, 18, 24, 21, 16, 27, 33, 38, 18, 34, 24, 20, 67, 34, 35, 46, 22, 29, 43, 55, 32, 20, 21, 29, 43, 36, 30, 23, 23, 57, 38, 34, 34, 28, 34, 31, 22, 33, 26], // Genisis
   [22, 25, 22, 31, 23, 30, 25, 32, 35, 29, 10, 51, 22, 31, 27, 36, 16, 27, 25, 26, 36, 31, 33, 18, 40, 37, 21, 43, 46, 38, 18, 35, 23, 34, 35, 38, 29, 31, 43, 38], // Exodus
   [17, 16, 17, 35, 19, 30, 38, 36, 24, 20, 47, 8, 59, 57, 33, 34, 16, 30, 37, 27, 24, 33, 44, 23, 55, 46, 34], // Levitcus
   [54, 34, 51, 49, 31, 27, 89, 26, 23, 36, 35, 16, 33, 45, 41, 50, 13, 32, 22, 29, 35, 41, 30, 25, 18, 65, 23, 31, 40, 16, 54, 42, 56, 29, 35, 13], //Numbers
@@ -135,7 +138,7 @@ struct StandardWorks {
   [21, 13, 10, 14, 11, 16, 14, 23, 17, 10, 17, 14, 9, 21], //Zechariah
   [14, 17, 18, 6]] // Malachi
   
-  let newTestamentBooks = ["Matthew",
+  private let newTestamentBooks = ["Matthew",
                       "Mark",
                       "Luke",
                       "John",
@@ -164,7 +167,7 @@ struct StandardWorks {
                       "Revelations"
   ]
   
-  let newTestamentChapters = ["Matthew": 28,
+  private let newTestamentChapters = ["Matthew": 28,
                       "Mark": 16,
                       "Luke": 24,
                       "John": 21,
@@ -193,7 +196,7 @@ struct StandardWorks {
                       "Revelations": 22
   ]
   
-  let versesNT = [[25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 57, 36, 38, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20], // Matthew
+  private let versesNT = [[25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 57, 36, 38, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20], // Matthew
   [45, 28, 35, 41, 43, 56, 37, 38, 50, 52, 33, 44, 37, 72, 47, 20], //Mark
   [80, 52, 38, 44, 39, 49, 50, 56, 62, 42, 54, 59, 35, 35, 32, 31, 37, 43, 48, 47, 38, 22, 56, 53], //luke
   [51, 25, 36, 54, 47, 71, 53, 59, 41, 41, 57, 50, 38, 31, 27, 33, 26, 40, 42, 31, 25], //John
@@ -222,7 +225,7 @@ struct StandardWorks {
   [20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 12, 18, 20, 8, 21, 18, 24, 21, 15, 27, 21]] //Revelation
   
   
-  let bookOfMormonBooks = ["1 Nephi",
+  private let bookOfMormonBooks = ["1 Nephi",
                            "2 Nephi",
                            "Jacob",
                            "Enos",
@@ -239,7 +242,7 @@ struct StandardWorks {
                            "Moroni"
        ]
   
-  let bookOfMormonChapters = ["1 Nephi": 22,
+  private let bookOfMormonChapters = ["1 Nephi": 22,
                       "2 Nephi": 33,
                       "Jacob": 7,
                       "Enos": 1,
@@ -256,7 +259,7 @@ struct StandardWorks {
                       "Moroni": 10
   ]
   
-  let versesBoM = [[20, 24, 31, 38, 22, 6, 22, 38, 6, 22, 36, 23, 42, 30, 36, 39, 55, 25, 24, 22, 26, 31], // 1 Nephi
+  private let versesBoM = [[20, 24, 31, 38, 22, 6, 22, 38, 6, 22, 36, 23, 42, 30, 36, 39, 55, 25, 24, 22, 26, 31], // 1 Nephi
   [32, 30, 25, 35, 34, 18, 11, 25, 54, 25, 8, 22, 26, 6, 30, 13, 25, 22, 21, 34, 16, 6, 22, 32, 30, 33, 35, 32, 14, 18, 21, 9, 15], // 2 Nephi
   [19, 35, 14, 18, 77, 13, 27], // Jacob
   [27], // Enos
@@ -272,31 +275,31 @@ struct StandardWorks {
   [43, 25, 28, 19, 6, 30, 27, 26, 35, 34, 23, 41, 31, 31, 34], // Ether
   [4, 3, 4, 3, 2, 9, 48, 30, 26, 3]] // Moroni
   
-  let doctrineAndCovenantsBooks = ["D&C"]
+  private let doctrineAndCovenantsBooks = ["D&C"]
   
-  let doctrineAndCovenantsSections = ["D&C": 138]
+  private let doctrineAndCovenantsSections = ["D&C": 138]
   
-  let versesDC = [[39, 3, 20, 7, 35, 37, 8, 12, 14, 70, 30, 9, 1, 11, 6, 6, 9, 47, 41, 84, 12, 4, 7, 19, 16, 2, 18, 16, 50, 11, 13, 4, 18, 12, 27, 8, 4, 42, 24, 3, 12, 93, 35, 6, 75, 33, 4, 6, 28, 46, 20, 44, 7, 10, 6, 20, 16, 65, 24, 17, 39, 9, 66, 43, 6, 13, 14, 35, 8, 18, 11, 26, 6, 7, 36, 119, 15, 22, 4, 5, 7, 24, 83, 120, 12, 11, 8, 141, 21, 37, 6, 2, 53, 17, 17, 9, 28, 48, 8, 17, 101, 34, 40, 86, 41, 8, 100, 8, 79, 16, 11, 34, 10, 2, 19, 1, 16, 6, 7, 1, 46, 9, 17, 145, 4, 3, 11, 25, 9, 130, 8, 66, 74, 12, 7, 42, 10, 60]]
+  private let versesDC = [[39, 3, 20, 7, 35, 37, 8, 12, 14, 70, 30, 9, 1, 11, 6, 6, 9, 47, 41, 84, 12, 4, 7, 19, 16, 2, 18, 16, 50, 11, 13, 4, 18, 12, 27, 8, 4, 42, 24, 3, 12, 93, 35, 6, 75, 33, 4, 6, 28, 46, 20, 44, 7, 10, 6, 20, 16, 65, 24, 17, 39, 9, 66, 43, 6, 13, 14, 35, 8, 18, 11, 26, 6, 7, 36, 119, 15, 22, 4, 5, 7, 24, 83, 120, 12, 11, 8, 141, 21, 37, 6, 2, 53, 17, 17, 9, 28, 48, 8, 17, 101, 34, 40, 86, 41, 8, 100, 8, 79, 16, 11, 34, 10, 2, 19, 1, 16, 6, 7, 1, 46, 9, 17, 145, 4, 3, 11, 25, 9, 130, 8, 66, 74, 12, 7, 42, 10, 60]]
   
-  let pearlOfGreatPriceBooks = ["Moses",
+  private let pearlOfGreatPriceBooks = ["Moses",
                                    "Abraham",
                                    "Articles of Faith",
                                    "Joseph Smith-History",
                                    "Joseph Smith-Matthew"
           ]
   
-  let pearlOfGreatPriceChapters = ["Moses": 8,
+  private let pearlOfGreatPriceChapters = ["Moses": 8,
                            "Abraham": 5,
                            "Articles of Faith": 13,
                            "Joseph Smith-History": 1,
                            "Joseph Smith-Matthew": 1
   ]
   
-  let versesPoGP = [[42, 31, 25, 32, 59, 68, 69, 30], // Moses
+  private let versesPoGP = [[42, 31, 25, 32, 59, 68, 69, 30], // Moses
   [31, 25, 28, 31, 21], // Abraham
   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], // Articles of Faith
-  [1], // Joseph Smith-History
-  [11]] // Joseph Smith-Matthew
+  [75], // Joseph Smith-History
+  [55]] // Joseph Smith-Matthew
   
   private func getBook(standardWork work: String) -> Int {
     var acsess = 0
@@ -316,8 +319,8 @@ struct StandardWorks {
     return acsess
   }
   
-  func getChapter(arrayAcess: Int) -> String {
-    let standardWorksBooks: [[String]] = [oldTestamentBooks, newTestamentBooks, bookOfMormonBooks, doctrineAndCovenantsBooks, pearlOfGreatPriceBooks]
+  private func getChapter(arrayAcess: Int) -> String {
+    let standardWorksBooks = [oldTestamentBooks, newTestamentBooks, bookOfMormonBooks, doctrineAndCovenantsBooks, pearlOfGreatPriceBooks]
     let standardWorksChapters = [oldTestamentChapters, newTestamentChapters, bookOfMormonChapters, doctrineAndCovenantsSections, pearlOfGreatPriceChapters]
     var scriptureInt = 0
     var bookName: String
@@ -325,17 +328,41 @@ struct StandardWorks {
     if arrayAcess == 3 {
       bookName = "D&C"
       bookChapter = Int.random(in: 1...138)
-      return "\(bookName) \(bookChapter)"
+      //let randomVerseInt = Int .random(in: 0..<verseCount)
+      return ("\(bookName) \(bookChapter)")
     } else {
       let work = standardWorksBooks[arrayAcess]
-      let works = standardWorksChapters[arrayAcess]
-      scriptureInt = Int.random(in: 1...work.count)
+      let chapters = standardWorksChapters[arrayAcess]
+      scriptureInt = Int.random(in: 0..<work.count)
       bookName = work[scriptureInt]
-      if let work = (works[bookName]) {
+      if let work = (chapters[bookName]) {
         bookChapter = work
       }
-      bookChapter = Int.random(in: 1...bookChapter)
-      return "\(bookName) \(bookChapter)"
+      bookChapter = Int.random(in: 0..<bookChapter)
+      return ("\(bookName) \(bookChapter + 1)")
     }
+  }
+  
+  private func randomVerseInt(chapter: String, arrayAccess: Int) -> Int {
+    let standardWorksBooks = [oldTestamentBooks, newTestamentBooks, bookOfMormonBooks, doctrineAndCovenantsBooks, pearlOfGreatPriceBooks]
+    let standardWorksVerses = [versesOT, versesNT, versesBoM, versesDC, versesPoGP]
+    let books = standardWorksBooks[arrayAccess]
+    let verses = standardWorksVerses[arrayAccess]
+    let spaceIndex = chapter.lastIndex(of: " ")
+    var subBook: Substring
+    var book = ""
+    var subChapter: Substring
+    var newChapter = ""
+    var chapterInt: Int
+    subBook = chapter[chapter.startIndex...spaceIndex!]
+    book = String(subBook)
+    book = book.trimmingCharacters(in: .whitespaces)
+    subChapter = chapter[chapter.index(after: spaceIndex!)...]
+    newChapter = String(subChapter)
+    chapterInt = Int(newChapter) ?? 0
+    let bookInt = books.firstIndex(of: book)
+    let chapterVersesInt = verses[bookInt!][chapterInt - 1]
+    let randomVerseInt = Int.random(in: 0..<chapterVersesInt)
+    return randomVerseInt
   }
 }

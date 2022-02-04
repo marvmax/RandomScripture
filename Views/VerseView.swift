@@ -8,17 +8,16 @@
 import SwiftUI
 
 struct VerseView: View {
-  var pickBook: PickBook
+  var work: String
   @State private var isShowingVerseView = false
   var body: some View {
-    let verseData = VerseData(pickBook: pickBook)
-    
+    let pickBook = PickBook(standardWorks: StandardWorks(work: work))
     NavigationView {
       VStack {
-      Text(verseData.verseTupel.1)
+        Text(pickBook.verse)
         .padding()
-        .navigationTitle(verseData.verseTupel.0)
-        NavigationLink(destination: ChapterView(verseData: verseData), isActive: $isShowingVerseView) {  }
+        .navigationTitle(pickBook.label)
+        NavigationLink(destination: ChapterView(pickBook: pickBook), isActive: $isShowingVerseView) {  }
           Button("Show Context") {
             isShowingVerseView = true
           }
@@ -30,6 +29,6 @@ struct VerseView: View {
 
 struct VerseView_Previews: PreviewProvider {
   static var previews: some View {
-    VerseView(pickBook: PickBook(book: StandardWorks(work: "Old Testament")))
+    VerseView(work: "Old Testameent")
   }
 }

@@ -1592,7 +1592,7 @@
 		0F9851B327AA0DBA00A0286D /* ChapterArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9851B227AA0DBA00A0286D /* ChapterArray.swift */; };
 		0F9851B827AA258D00A0286D /* D&C 132.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9851B627AA258C00A0286D /* D&C 132.json */; };
 		0F9851B927AA258D00A0286D /* D&C 131.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9851B727AA258C00A0286D /* D&C 131.json */; };
-		0F9851BB27AA281C00A0286D /* Joseph Smith-History.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9851BA27AA281C00A0286D /* Joseph Smith-History.json */; };
+		0F9851BB27AA281C00A0286D /* Joseph Smith-History 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F9851BA27AA281C00A0286D /* Joseph Smith-History 1.json */; };
 		0FCFEB3627A028D4008464B8 /* RandomScripturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFEB3527A028D4008464B8 /* RandomScripturesApp.swift */; };
 		0FCFEB3827A028D4008464B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFEB3727A028D4008464B8 /* ContentView.swift */; };
 		0FCFEB3A27A028D7008464B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFEB3927A028D7008464B8 /* Assets.xcassets */; };
@@ -3207,7 +3207,7 @@
 		0F9851B227AA0DBA00A0286D /* ChapterArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterArray.swift; sourceTree = "<group>"; };
 		0F9851B627AA258C00A0286D /* D&C 132.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 132.json"; sourceTree = "<group>"; };
 		0F9851B727AA258C00A0286D /* D&C 131.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "D&C 131.json"; sourceTree = "<group>"; };
-		0F9851BA27AA281C00A0286D /* Joseph Smith-History.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Joseph Smith-History.json"; sourceTree = "<group>"; };
+		0F9851BA27AA281C00A0286D /* Joseph Smith-History 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Joseph Smith-History 1.json"; sourceTree = "<group>"; };
 		0FCFEB3227A028D4008464B8 /* RandomScriptures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomScriptures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCFEB3527A028D4008464B8 /* RandomScripturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomScripturesApp.swift; sourceTree = "<group>"; };
 		0FCFEB3727A028D4008464B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -3308,7 +3308,7 @@
 		0FCFEB5F27A02941008464B8 /* Books */ = {
 			isa = PBXGroup;
 			children = (
-				0F9851BA27AA281C00A0286D /* Joseph Smith-History.json */,
+				0F9851BA27AA281C00A0286D /* Joseph Smith-History 1.json */,
 				0F9851B727AA258C00A0286D /* D&C 131.json */,
 				0F9851B627AA258C00A0286D /* D&C 132.json */,
 				0F9851A027A9FA5600A0286D /* Abraham 1.json */,
@@ -5949,7 +5949,7 @@
 				0F984FE827A9F87B00A0286D /* Judges 9.json in Resources */,
 				0F9849FB27A9F64000A0286D /* Revelation 13.json in Resources */,
 				0F98494827A9F64000A0286D /* Matthew 13.json in Resources */,
-				0F9851BB27AA281C00A0286D /* Joseph Smith-History.json in Resources */,
+				0F9851BB27AA281C00A0286D /* Joseph Smith-History 1.json in Resources */,
 				0F9847C527A9F5CE00A0286D /* D&C 26.json in Resources */,
 				0F98515B27A9F87C00A0286D /* Psalms 85.json in Resources */,
 				0F98503027A9F87B00A0286D /* Nehemiah 11.json in Resources */,
@@ -6796,7 +6796,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RandomScriptures/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BXJ36T4877;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -6828,7 +6828,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RandomScriptures/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BXJ36T4877;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

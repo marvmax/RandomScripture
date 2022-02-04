@@ -12,7 +12,7 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       List(standardWorks, id: \.self) { work in
-        NavigationLink(destination: VerseView(pickBook: PickBook(book: StandardWorks(work: work)))) {
+        NavigationLink(destination: VerseView(work: work)) {
           Text(work)
         }
       }

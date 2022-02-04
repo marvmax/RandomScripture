@@ -12,8 +12,9 @@ struct Verse: Codable, Hashable  {
   let verse: Int
 }
 
+/*
 struct VerseData {
-  var pidkBook: PickBook
+  var pickBook: PickBook
   var verseTupel = ("", "")
   var verseStrings: [String] = [String]()
   init(pickBook: PickBook) {
@@ -22,23 +23,37 @@ struct VerseData {
     self.verseStrings = pickBook.verseStrings
   }
 }
+ */
+ /*
+struct RandomVerse {
+  var standardWorks: StandardWorks
+  var randomVerseInt = 0
+  var chapter = ""
+  init(standardWorks: StandardWorks){
+    self.standardWorks = standardWorks
+    self.randomVerseInt = standardWorks.randomVerseInt
+    self.chapter = standardWorks.chapter
+  }
+}
+  */
 
 struct PickBook {
-  
-  var book: StandardWorks
+  var standardWorks: StandardWorks
+  var book = ""
   private var verses: [Verse] { getVerses() }
-  private var randomScriptureInt: Int { randomTextNumer(verses) }
-  // private var verseTuple: (lable: String, text: String) { getVerseData(verses)}
-  var verseTuple: (label: String, verse: String) { getVerseData(verses)}
-  //var verse: String { getVerseData(verses).1 }
+  private var randomScriptureInt = 0 // { randomTextNumer(verses) }
+  var label: String { getVerseLabel(verses) }
+  var verse: String { getVerse() }
   var verseStrings: [String] { getStringVerses() }
   
-  init(book: StandardWorks) {
-    self.book = book
+  init(standardWorks: StandardWorks) {
+    self.standardWorks = standardWorks
+    self.book = standardWorks.chapter
+    self.randomScriptureInt = standardWorks.randomVerseInt
   }
   
   private func jsonData() -> Data? {
-    if let URL = Bundle.main.url(forResource: book.chapter, withExtension: "json") {
+    if let URL = Bundle.main.url(forResource: book, withExtension: "json") {
       do {
         return try Data(contentsOf: URL)
       } catch {
@@ -51,12 +66,18 @@ struct PickBook {
   private func getVerses() -> [Verse] {
     var verses: [Verse] = []
     let jsonData = jsonData()
-    do {
-      verses = try JSONDecoder().decode([Verse].self, from: jsonData!)
-    } catch {
-      print(error)
+    if let jsonData = jsonData {
+      do {
+        verses = try JSONDecoder().decode([Verse].self, from: jsonData)
+      } catch {
+        print(error)
+      }
+      return verses
+    } else {
+      print("No json data")
     }
-    return verses
+    // let returnVerse = Verse(reference: "The cat is best", text: "Tada", verse: 6)
+    return []
   }
   
   func getStringVerses() -> [String] {
@@ -73,18 +94,11 @@ struct PickBook {
 }
 
 extension PickBook {
-  func getVerseData(_ verses: [Verse] ) -> (String, String) {
+  func getVerseLabel(_ verses: [Verse] ) -> String {
     let verse = verses[randomScriptureInt]
-    let label = verse.reference
-    let text = verse.text
-    let int = verse.verse
-    let textWithNumber = "\(int). \(text)"
-    return (label, textWithNumber)
+    return verse.reference
+    
   }
-  
-  func randomTextNumer(_ verses: [Verse]) -> Int {
-      return Int.random(in: 1...verses.count)
-    }
   
   func getVerse() -> String {
     return getStringVerses()[randomScriptureInt]
