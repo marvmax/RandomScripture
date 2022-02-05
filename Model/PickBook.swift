@@ -23,33 +23,37 @@ struct VerseData {
     self.verseStrings = pickBook.verseStrings
   }
 }
- */
- /*
+
+
 struct RandomVerse {
-  var standardWorks: StandardWorks
-  var randomVerseInt = 0
-  var chapter = ""
-  init(standardWorks: StandardWorks){
-    self.standardWorks = standardWorks
-    self.randomVerseInt = standardWorks.randomVerseInt
-    self.chapter = standardWorks.chapter
+  var work: String
+  //var standardWorks: StandardWorks
+  //var pickBook: PickBook
+  init(work: String) {
+    self.work = work
+    var standardWorks = StandardWorks(work: work)
+    var pickBook = PickBook()
   }
-}
-  */
+  }
+ */
+  
 
 struct PickBook {
-  var standardWorks: StandardWorks
-  var book = ""
-  private var verses: [Verse] { getVerses() }
-  private var randomScriptureInt = 0 // { randomTextNumer(verses) }
+  var work: String
+  var bookInt = 0//standardWorks.getBook(standardWork: work)
+  var book = ""///standardWorks.getChapter(arrayAcess: bookInt)
+  var randomScriptureInt = 0 //standardWorks.randomVerseInt(chapter: book, arrayAccess: bookInt) // { randomTextNumer(verses) }
+  var verses: [Verse] { getVerses() }
   var label: String { getVerseLabel(verses) }
   var verse: String { getVerse() }
   var verseStrings: [String] { getStringVerses() }
   
-  init(standardWorks: StandardWorks) {
-    self.standardWorks = standardWorks
-    self.book = standardWorks.chapter
-    self.randomScriptureInt = standardWorks.randomVerseInt
+  public init(work: String) {
+    self.work = work
+    let standardWorks = StandardWorks(work: self.work)
+    self.bookInt = standardWorks.getBook(standardWork: self.work)
+    self.book = standardWorks.getChapter(arrayAcess: bookInt)
+    self.randomScriptureInt = standardWorks.randomVerseInt(chapter: book, arrayAccess: bookInt)
   }
   
   private func jsonData() -> Data? {
@@ -85,7 +89,8 @@ struct PickBook {
     var stringVerses: [String] = []
     var count = 1
     for verse in verses {
-      let newString = "\(count). " + verse.text
+      var newString = "\(count). " + verse.text
+      newString = newString.trimmingCharacters(in: .whitespaces)
       stringVerses.append(newString)
       count += 1
     }

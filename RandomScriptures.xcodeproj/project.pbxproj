@@ -1582,7 +1582,7 @@
 		0F9851A627A9FA5600A0286D /* Moses 8.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519627A9FA5200A0286D /* Moses 8.json */; };
 		0F9851A727A9FA5600A0286D /* Moses 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519727A9FA5200A0286D /* Moses 6.json */; };
 		0F9851A827A9FA5600A0286D /* Abraham 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519827A9FA5300A0286D /* Abraham 4.json */; };
-		0F9851AA27A9FA5600A0286D /* Articles of Faith.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519A27A9FA5400A0286D /* Articles of Faith.json */; };
+		0F9851AA27A9FA5600A0286D /* Articles of Faith 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519A27A9FA5400A0286D /* Articles of Faith 1.json */; };
 		0F9851AB27A9FA5600A0286D /* Moses 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519B27A9FA5400A0286D /* Moses 3.json */; };
 		0F9851AC27A9FA5600A0286D /* Moses 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519C27A9FA5400A0286D /* Moses 7.json */; };
 		0F9851AD27A9FA5600A0286D /* Joseph Smith-Matthew 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F98519D27A9FA5500A0286D /* Joseph Smith-Matthew 1.json */; };
@@ -3197,7 +3197,7 @@
 		0F98519627A9FA5200A0286D /* Moses 8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 8.json"; sourceTree = "<group>"; };
 		0F98519727A9FA5200A0286D /* Moses 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 6.json"; sourceTree = "<group>"; };
 		0F98519827A9FA5300A0286D /* Abraham 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Abraham 4.json"; sourceTree = "<group>"; };
-		0F98519A27A9FA5400A0286D /* Articles of Faith.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Articles of Faith.json"; sourceTree = "<group>"; };
+		0F98519A27A9FA5400A0286D /* Articles of Faith 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Articles of Faith 1.json"; sourceTree = "<group>"; };
 		0F98519B27A9FA5400A0286D /* Moses 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 3.json"; sourceTree = "<group>"; };
 		0F98519C27A9FA5400A0286D /* Moses 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Moses 7.json"; sourceTree = "<group>"; };
 		0F98519D27A9FA5500A0286D /* Joseph Smith-Matthew 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Joseph Smith-Matthew 1.json"; sourceTree = "<group>"; };
@@ -3316,7 +3316,7 @@
 				0F98519527A9FA5200A0286D /* Abraham 3.json */,
 				0F98519827A9FA5300A0286D /* Abraham 4.json */,
 				0F98519227A9FA5000A0286D /* Abraham 5.json */,
-				0F98519A27A9FA5400A0286D /* Articles of Faith.json */,
+				0F98519A27A9FA5400A0286D /* Articles of Faith 1.json */,
 				0F98519D27A9FA5500A0286D /* Joseph Smith-Matthew 1.json */,
 				0F98519427A9FA5100A0286D /* Moses 1.json */,
 				0F98519327A9FA5100A0286D /* Moses 2.json */,
@@ -5369,7 +5369,7 @@
 				0F98472027A9F57800A0286D /* Helaman 10.json in Resources */,
 				0F98495427A9F64000A0286D /* Revelation 9.json in Resources */,
 				0F98481C27A9F5CE00A0286D /* D&C 107.json in Resources */,
-				0F9851AA27A9FA5600A0286D /* Articles of Faith.json in Resources */,
+				0F9851AA27A9FA5600A0286D /* Articles of Faith 1.json in Resources */,
 				0F984F4527A9F87A00A0286D /* Isaiah 47.json in Resources */,
 				0F984E3727A9F87900A0286D /* Exodus 13.json in Resources */,
 				0F98467427A9F57700A0286D /* Helaman 15.json in Resources */,

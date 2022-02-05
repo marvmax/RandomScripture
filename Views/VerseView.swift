@@ -11,7 +11,7 @@ struct VerseView: View {
   var work: String
   @State private var isShowingVerseView = false
   var body: some View {
-    let pickBook = PickBook(standardWorks: StandardWorks(work: work))
+    let pickBook = PickBook(work: work)
     NavigationView {
       VStack {
         Text(pickBook.verse)

@@ -28,6 +28,6 @@ struct ChapterView: View {
 
 struct ChapterView_Previews: PreviewProvider {
   static var previews: some View {
-    ChapterView(pickBook: PickBook(standardWorks: StandardWorks(work: "Old Testament")))
+    ChapterView(pickBook: PickBook(work: "Old Testament"))
   }
 }

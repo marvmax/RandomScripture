@@ -10,9 +10,8 @@ import Foundation
 struct StandardWorks {
   var work: String
   // private var verseTuple: String { getChapter(arrayAcess: getBook(standardWork: work)) }
-  var chapter: String { getChapter(arrayAcess: getBook(standardWork: work)) }
-  var randomVerseInt: Int { randomVerseInt(chapter: chapter, arrayAccess: getBook(standardWork: work)) }
-  var verseTest = 0
+  //var chapter: String { getChapter(arrayAcess: getBook(standardWork: work)) }
+  //var randomVerseInt: Int { randomVerseInt(chapter: chapter, arrayAccess: getBook(standardWork: work)) }
   private let standardWorks = ["Standard Works", "Old Testament", "New Testament", "Book of Mormon", "Doctrine and Covenants", "Pearl of Great Price"]
   
   private let oldTestamentBooks = ["Genisis",
@@ -297,11 +296,11 @@ struct StandardWorks {
   
   private let versesPoGP = [[42, 31, 25, 32, 59, 68, 69, 30], // Moses
   [31, 25, 28, 31, 21], // Abraham
-  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], // Articles of Faith
+  [13], // Articles of Faith
   [75], // Joseph Smith-History
   [55]] // Joseph Smith-Matthew
   
-  private func getBook(standardWork work: String) -> Int {
+  func getBook(standardWork work: String) -> Int {
     var acsess = 0
     var count: Int = -1
     if work == standardWorks[0] {
@@ -319,7 +318,7 @@ struct StandardWorks {
     return acsess
   }
   
-  private func getChapter(arrayAcess: Int) -> String {
+  func getChapter(arrayAcess: Int) -> String {
     let standardWorksBooks = [oldTestamentBooks, newTestamentBooks, bookOfMormonBooks, doctrineAndCovenantsBooks, pearlOfGreatPriceBooks]
     let standardWorksChapters = [oldTestamentChapters, newTestamentChapters, bookOfMormonChapters, doctrineAndCovenantsSections, pearlOfGreatPriceChapters]
     var scriptureInt = 0
@@ -338,12 +337,16 @@ struct StandardWorks {
       if let work = (chapters[bookName]) {
         bookChapter = work
       }
-      bookChapter = Int.random(in: 0..<bookChapter)
+      if bookName == "Articles of Faith" {
+        bookChapter = 0
+      } else {
+        bookChapter = Int.random(in: 0..<bookChapter)
+      }
       return ("\(bookName) \(bookChapter + 1)")
     }
   }
   
-  private func randomVerseInt(chapter: String, arrayAccess: Int) -> Int {
+  func randomVerseInt(chapter: String, arrayAccess: Int) -> Int {
     let standardWorksBooks = [oldTestamentBooks, newTestamentBooks, bookOfMormonBooks, doctrineAndCovenantsBooks, pearlOfGreatPriceBooks]
     let standardWorksVerses = [versesOT, versesNT, versesBoM, versesDC, versesPoGP]
     let books = standardWorksBooks[arrayAccess]
@@ -361,8 +364,9 @@ struct StandardWorks {
     newChapter = String(subChapter)
     chapterInt = Int(newChapter) ?? 0
     let bookInt = books.firstIndex(of: book)
+    var randomVerseInt: Int
     let chapterVersesInt = verses[bookInt!][chapterInt - 1]
-    let randomVerseInt = Int.random(in: 0..<chapterVersesInt)
+    randomVerseInt = Int.random(in: 0..<chapterVersesInt)
     return randomVerseInt
   }
 }
